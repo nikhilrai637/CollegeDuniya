@@ -45,7 +45,7 @@ export default function App() {
             )
           }else if (index ===  collegeCount)
         return <div ref={lastCollegeElementRef} key={index}>
-          <CollegeCard college = {clg} />
+          <CollegeCard college = {clg} index={index} />
           </div>
         
          
