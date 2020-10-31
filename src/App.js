@@ -1,5 +1,5 @@
 import React, { useState, useRef, useCallback } from 'react'
- 
+import C1  from './college_01.jpg'
 import {colleges}  from './colleges'
 import CollegeCard from './CollegeCard'
 export default function App() {
@@ -32,7 +32,9 @@ export default function App() {
   return (
     <>    
     
+    <img src =  { C1 } /> 
     { 
+
       colleges.map( (clg , index) => {
          
           if( index < collegeCount ){
@@ -52,17 +54,7 @@ export default function App() {
       {console.log("collegeCount"   , collegeCount)}
          
       
-      {/* <input type="text" value={query} onChange={handleSearch}></input>
-      {books.map((book, index) => {
-        if (books.length === index + 1) {
-          return <div ref={lastBookElementRef} key={book}>{book}</div>
-        } else {
-          return <div key={book}>{book}</div>
-        }
-      })}
-      {/* {console.log(colleges)} */}
-      {/* <div>{loading && 'Loading...'}</div>
-      <div>{error && 'Error'}</div> */} */}
+     
 
 
     </>
