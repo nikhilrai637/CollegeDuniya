@@ -1,9 +1,11 @@
 import React, { useState, useRef, useCallback } from 'react'
 import useBookSearch from './useBookSearch'
-
+import {colleges}  from './colleges'
+import CollegeCard from './CollegeCard'
 export default function App() {
   const [query, setQuery] = useState('')
   const [pageNumber, setPageNumber] = useState(1)
+  const [collegeCount , setCollegeCount] = useState(10)
 
   const {
     books,
@@ -19,6 +21,7 @@ export default function App() {
     observer.current = new IntersectionObserver(entries => {
       if (entries[0].isIntersecting && hasMore) {
         setPageNumber(prevPageNumber => prevPageNumber + 1)
+        setCollegeCount(prevcollegeCount => prevcollegeCount + 10 )
       }
     })
     if (node) observer.current.observe(node)
@@ -30,7 +33,25 @@ export default function App() {
   }
 
   return (
-    <>
+    <>    
+    
+    {
+      colleges.map( (clg , index) => {
+         
+          if( index+1 <= collegeCount ){
+            return(
+              <div key={index} >
+              <CollegeCard college = {clg} />
+            </div> 
+            )
+          }
+        
+         
+      })
+    }
+      
+         
+      
       <input type="text" value={query} onChange={handleSearch}></input>
       {books.map((book, index) => {
         if (books.length === index + 1) {
@@ -39,8 +60,11 @@ export default function App() {
           return <div key={book}>{book}</div>
         }
       })}
+      {/* {console.log(colleges)} */}
       <div>{loading && 'Loading...'}</div>
       <div>{error && 'Error'}</div>
+
+
     </>
   )
 }
