@@ -40,7 +40,7 @@ export default function App() {
           if( index < collegeCount ){
             return(
               <div key={index} >
-              <CollegeCard college = {clg} />
+              <CollegeCard college = {clg} index={index} />
             </div> 
             )
           }else if (index ===  collegeCount)
