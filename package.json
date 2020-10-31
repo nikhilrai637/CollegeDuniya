@@ -1,6 +1,6 @@
 { 
-  "homepage": "http://{username}.github.io/{repo-name}",
-  "name": "react-infinite-scrolling",
+  "homepage": "http://nikhilrai637.github.io/CollegeDuniya",
+  "name": "CollegeDuniya",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
