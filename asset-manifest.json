@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "%7Busername%7D.github.io/%7Brepo-name%7D/static/js/main.320eae28.chunk.js",
-    "main.js.map": "%7Busername%7D.github.io/%7Brepo-name%7D/static/js/main.320eae28.chunk.js.map",
-    "runtime-main.js": "%7Busername%7D.github.io/%7Brepo-name%7D/static/js/runtime-main.19122ad9.js",
-    "runtime-main.js.map": "%7Busername%7D.github.io/%7Brepo-name%7D/static/js/runtime-main.19122ad9.js.map",
-    "static/js/2.64715bce.chunk.js": "%7Busername%7D.github.io/%7Brepo-name%7D/static/js/2.64715bce.chunk.js",
-    "static/js/2.64715bce.chunk.js.map": "%7Busername%7D.github.io/%7Brepo-name%7D/static/js/2.64715bce.chunk.js.map",
-    "index.html": "%7Busername%7D.github.io/%7Brepo-name%7D/index.html",
-    "precache-manifest.4eb05540679ec926570dc97cfcbf494a.js": "%7Busername%7D.github.io/%7Brepo-name%7D/precache-manifest.4eb05540679ec926570dc97cfcbf494a.js",
-    "service-worker.js": "%7Busername%7D.github.io/%7Brepo-name%7D/service-worker.js"
+    "main.js": "/CollegeDuniya/static/js/main.e266444d.chunk.js",
+    "main.js.map": "/CollegeDuniya/static/js/main.e266444d.chunk.js.map",
+    "runtime-main.js": "/CollegeDuniya/static/js/runtime-main.ca80bdce.js",
+    "runtime-main.js.map": "/CollegeDuniya/static/js/runtime-main.ca80bdce.js.map",
+    "static/js/2.563887ae.chunk.js": "/CollegeDuniya/static/js/2.563887ae.chunk.js",
+    "static/js/2.563887ae.chunk.js.map": "/CollegeDuniya/static/js/2.563887ae.chunk.js.map",
+    "index.html": "/CollegeDuniya/index.html",
+    "precache-manifest.b53d5ef3700b858c8a9ed3a8e552c832.js": "/CollegeDuniya/precache-manifest.b53d5ef3700b858c8a9ed3a8e552c832.js",
+    "service-worker.js": "/CollegeDuniya/service-worker.js"
   }
 }
