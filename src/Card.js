@@ -7,8 +7,12 @@ function card({college,index}) {
     return (
         <div>
  <Card style={{ width: '18rem' }}>
-      
-  <Card.Img variant="top" src={College1} />
+   {
+       index%2 === 0 
+       ? <Card.Img variant="top" src={College1} />
+       : <Card.Img variant="top" src={College2} />
+   }   
+   
   <Card.Body>
     <Card.Title>{college.college_name}</Card.Title>
     <Card.Text>
