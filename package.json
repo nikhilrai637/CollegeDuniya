@@ -1,11 +1,13 @@
-{ 
+{
   "homepage": "http://nikhilrai637.github.io/CollegeDuniya",
   "name": "CollegeDuniya",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "axios": "^0.19.0",
+    "bootstrap": "^4.5.3",
     "react": "^16.9.0",
+    "react-bootstrap": "^1.4.0",
     "react-dom": "^16.9.0",
     "react-scripts": "3.1.2"
   },
@@ -14,8 +16,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy" : "npm run build" ,
-    "deploy"    : "gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
